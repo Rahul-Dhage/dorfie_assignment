@@ -1,0 +1,158 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header {
+
+
+    justify-content: center;
+}
+
+header h1 {
+    margin: auto;
+    text-align: center;
+    padding: 2px;
+
+}
+
+.main {
+    height: 100%;
+    margin-top: 10%;
+}
+
+.form {
+    align-items: center;
+    margin: auto;
+    border: 2px;
+    border-color: blue;
+    border-radius: 7px;
+    padding: 60px 20px 60px 20px;
+    align-items: center;
+    width: 50%;
+    text-align: center;
+    background-color: #1d1c1c;
+
+    justify-content: space-around;
+    text-align: left;
+
+}
+
+@media screen and (max-width: 992px) {
+    .form {
+        width: 90%;
+        height: 80%;
+    }
+}
+
+.forminside {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+@media screen and (max-width: 992px) {
+    .forminside {
+        width: ;
+        flex-direction: column;
+    }
+}
+
+.submit {
+    margin: auto;
+    text-align: center;
+    margin-top: 30px;
+
+
+}
+
+button {
+    background-color: #4d4aeb;
+    padding: 9px;
+    font-weight: 600;
+    font-size: medium;
+    border-radius: 5px;
+    color: white;
+    border: 1px;
+    border-color: white;
+
+    outline: none;
+    width: 140px;
+}
+
+button:hover {
+    transition-duration: 9000ms;
+    background-color: #2f2beefc;
+    cursor: pointer;
+
+}
+
+label {
+    padding-left: 7px;
+
+
+}
+
+select {
+
+    margin-top: 10px;
+    width: 100%;
+    padding: 8px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 2px;
+    color: rgba(23, 185, 128, 0.823);
+    font-size: medium;
+    background-color: #504e4e;
+    border-color: rgb(62, 5, 93);
+    border-radius: 7px;
+}
+
+option {
+    padding: 6px;
+    border: 2px;
+    color: white;
+    background-color: #504e4e;
+    border-color: rgb(15, 15, 176);
+    border-radius: 7px;
+}
+
+.dropdwon {
+    width: 30%;
+    margin-left: 4px;
+    margin-right: 2px;
+
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0%;
+    left: 0%;
+    background-position: bottom;
+    background-color: rgb(15, 15, 14);
+    background-attachment: fixed;
+    padding: 10px 60px 10px 60px;
+}
+
+p {
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+    color: white;
+}
+
+span {
+    padding: 2px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: small;
+    color: white;
+    margin: auto;
+    padding: 2px;
+}

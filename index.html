@@ -1,11 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+
+
+    <title>Dorfie Labs Assignment</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap" rel="stylesheet">
 </head>
-<body>
-    
+
+<body class="bg-zinc-800">
+    <header class="flex justify-center text-white p-2 font-semibold text-2xl">
+        <h1>Dorfie Assignment</h1>
+
+    </header>
+
+    <div class="main">
+        <div class="main">
+            <form class="">
+                <div class="form">
+                    <div class="forminside">
+                        <div class="dropdwon">
+                            <label class="" for="country">Country:</label>
+                            <br>
+                            <select class="" id="country" onchange="fetchStates()">
+                                <option value="">Select Country</option>
+                            </select>
+                        </div>
+
+                        <div class="dropdwon">
+                            <label class=" " for="state">State:</label>
+                            <br>
+                            <select class="" id="state" onchange="fetchCities()">
+                                <option value="">Select State</option>
+                            </select>
+                        </div>
+
+                        <div class="dropdwon">
+                            <label for="city">City:</label>
+                            <br>
+                            <select class="p-3 rounded-lg " id="city">
+                                <option value="">Select City</option>
+                            </select>
+                        </div>
+
+
+
+                    </div>
+                    <div class="submit">
+
+                        <button type="submit">Submit</button>
+                    </div>
+                </div>
+
+
+
+
+            </form>
+        </div>
+    </div>
+    <footer>
+
+        <div>
+            <h4>Contact</h4>
+            <p>
+                <span>Email: rahuldhage2804@gmail.com</span>
+
+                <span>Mobile No: 9730979643f</span>
+                <span></span>
+
+
+            </p>
+        </div>
+        <div class="copyright">Copyright © 2023 Dorfie Labs®. All rights reserved.</div>
+
+
+    </footer>
+
+    <script src="index.js"></script>
+
 </body>
+
 </html>
